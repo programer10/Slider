@@ -1,0 +1,93 @@
+<html lang="en">
+    <head>
+       <meta http-equiv="content-type" content="text/html" charset="utf-8" />
+       <title>Slider</title>    
+       <link href="css/style.css" rel="stylesheet">
+       <link href="css/grid.css" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <div class="header-text">
+                <p><b>This is the header of slider</b></p>
+            </div>
+        </header><br>
+        <section class="main-content">
+                <div id="main-wrapper">
+                    <div class="row">
+                        <div class="image-7">
+                            <div class="col span-1-of-5 box">
+                                 <img src="img/slider-image-7.jpg" id="image1" onclick="currentSlide(5)">
+                            </div>
+                         </div>
+                         <div class="image-6">
+                             <div class="col span-1-of-5 box">
+                                 <img src="img/slider-image-6.jpg" id="image2" onclick="currentSlide(4)">
+                             </div>
+                         </div>
+                         <div class="image-9">
+                             <div class="col span-1-of-5 box">
+                                 <img src="img/slider-image-9.jpg" id="image3" onclick="currentSlide(3)">
+                             </div>
+                         </div>
+                         <div class="image-8" >
+                             <div class="col span-1-of-5 box">
+                                 <img src="img/slider-image-8.jpg" id="image4" onclick="currentSlide(2)">
+                             </div>
+                         </div>
+                         <div class="image-5" >
+                             <div class="col span-1-of-5 box">
+                                 <img src="img/slider-image-5.jpg"  id="image5" onclick="currentSlide(1)">
+                             </div>
+                         </div>
+                    </div>
+                    <div class="row">
+                        <div class="image-4" >
+                             <div class="col span-1-of-4 box">
+                                 <img src="img/slider-image-4.jpg" id="image6">
+                             </div>
+                         </div>
+                         <div class="image-1" >
+                             <div class="col span-1-of-4 box">
+                                 <img src="img/slider-image-1.jpg" id="image7">
+                             </div>
+                         </div>
+                         <div class="image-2" >
+                             <div class="col span-1-of-4 box">
+                                 <img src="img/slider-image-2.jpg" id="image8">
+                             </div>
+                         </div>
+                         <div class="image-3" >
+                             <div class="col span-1-of-4 box">
+                                 <img src="img/slider-image-3.jpg" id="image9">
+                             </div>
+                         </div>
+                        <div class="image-3" id = "placehere"></div>
+                    </div>
+                   <button class="prev-button" onclick="nextImage()">
+                      <div class="col span-1-of-4 box">
+                           <img src="img/arrow-blue-right.png">
+                      </div>
+                   </button>
+                   <button class="next-button" onclick="prevImage()">
+                      <div class="col span-1-of-4 box">
+                       <img src="img/arrow-blue-left.png">
+                      </div>
+                   </button> 
+                </div>  
+        </section>
+        <aside>
+           <div class="container">
+                <h2>Where does it come from?</h2>
+                 <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC,<br> making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, <br>from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.<br>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. <br>The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. </p>
+           </div>
+        </aside><br> 
+        <footer>
+           <div class="container">
+                <h4>This is footer</h4>
+                <p>he standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" </p>
+           </div>
+        </footer>
+        <script src="js/jquery.js" type="text/javascript"></script>
+        <script src="js/slider.js" type="text/javascript"></script>
+    </body>
+</html>
